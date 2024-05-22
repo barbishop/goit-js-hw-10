@@ -5,8 +5,6 @@
   |============================
 */
 @import url('./reset.css');
-@import url('./vite-promo.css');
-@import url('./header.css');
 
 :root {
   font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
@@ -22,4 +20,119 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
+}
+
+/* 1-timer */
+#datetime-picker {
+  width: 300px;
+  margin: 0 auto;
+  display: block;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+button {
+  display: block;
+  padding: 10px 20px;
+  margin: 20px auto;
+  font-size: 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+button:active {
+  transform: translateY(1px);
+}
+
+.timer {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.field {
+  text-align: center;
+  margin: 0 10px;
+}
+
+.value {
+  font-size: 24px;
+}
+
+.label {
+  display: block;
+  font-size: 14px;
+}
+
+/* 2-snackbar */
+
+.form {
+  max-width: 300px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+input[type='number'] {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+}
+
+fieldset {
+  border: none;
+  margin-bottom: 20px;
+}
+
+legend {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+fieldset label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+button {
+  display: block;
+  padding: 10px 20px;
+  margin: 20px auto;
+  font-size: 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+button:active {
+  transform: translateY(1px);
 }
